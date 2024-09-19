@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Mundo de Alice</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario.alice.png" alt="">
+            <p>Entre em um mundo completamente absurdo, cheio de criaturas fantásticas e eventos improváveis.</p>
+            <button class="btn-proximo" data-proximo="1">Cogumelos</button>
+            <button class="btn-proximo" data-proximo="2">Coelho</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="cogumelo-alice.jpg"
+            <p>Alice ficou olhando pensativamente para o cogumelo durante um minuto, tentando descobrir quais seriam os dois lados, pois, como o cogumelo era perfeitamente redondo, pareceu-lhe uma difícil questão. Entretanto, ela esticou os braços em volta dele, o mais distante possível um do outro, e tirou um pedacinho de cada lado.
+
+                “E agora, qual é qual?” disse a si mesma. E experimentou um pedacinho da direita para ver o efeito.</p>
+            
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="coelho-alice.png"
+            <p>Não havia nada de tão notável nisso; nem Alice achou tão estranho ouvir o Coelho murmurar para si mesmo, “Ai, meu Deus! Ai, meu Deus! Estou muito atrasado!” (quando pensou nisso, bem mais tarde, ocorreu-lhe que deveria ter estranhado; porém, naquele momento, tudo lhe pareceu perfeitamente natural). Mas quando o Coelho tirou um relógio do bolso do colete, deu uma olhada nele e acelerou o passo, Alice ergueu-se, porque lhe passou pela cabeça que nunca em sua vida tinha visto um coelho de colete e muito menos com relógio dentro do bolso. </p>
+            
+        </div>
+    </main> 
+    <script src="script.js"></script>
+</body>
+</html>
